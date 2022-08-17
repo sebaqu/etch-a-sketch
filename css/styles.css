@@ -1,0 +1,35 @@
+div {
+    text-align: center;
+}
+
+.container {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.contentflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
+    text-align: center;
+    width: max-content; margin: 0 auto;
+    padding-top: 5px;
+}
+
+.cell {
+    border: 1px solid black;
+    background-color: pink;
+    width: 10px; margin: 0 auto;
+    height: 10px; margin: 0 auto;
+}
+
+.sketch-color {
+    background-color: black;
+}
+
+@media screen and (min-width: 100px) {
+    .column {
+      flex: 1;
+    }
+  }
